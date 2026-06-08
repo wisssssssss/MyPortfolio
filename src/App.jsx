@@ -64,7 +64,8 @@ function Nav() {
         <div className="flex items-center gap-3">
           <div className="p-[2px] rounded-full bg-gradient-to-br from-[#E4E2DB] to-[#9C9C96] flex-shrink-0">
             <div className="w-11 h-11 rounded-full overflow-hidden bg-[#2C2C2A] border-2 border-[#F7F6F3]">
-              <img src="202109235.JPG" alt="Profile" className="w-full h-full object-cover" />
+              {/* ✅ FIX: image moved to public/ folder, path updated */}
+              <img src="/MyPortfolio/202109235.JPG" alt="Profile" className="w-full h-full object-cover" />
             </div>
           </div>
           <div className="flex flex-col gap-px">
